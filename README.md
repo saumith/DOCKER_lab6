@@ -524,5 +524,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Saumith Deversetty**
 - GitHub: [@saumith](https://github.com/saumith)
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)
-- Email: your.email@example.com
