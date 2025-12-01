@@ -1,0 +1,21 @@
+__pycache__
+*.pyc
+*.pyo
+.Python
+*.egg-info
+.git
+.gitignore
+*.md
+.vscode
+.idea
+*.log
+.DS_Store
+venv
+env
+.env
+.pytest_cache
+.coverage
+
+# Don't include test files in production
+src/test_api.py
+src/compare_models.py
