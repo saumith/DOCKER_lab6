@@ -37,11 +37,6 @@ docker-compose up --build
 
 ---
 
-## Demo
-
-### Web Interface
-Access the application at: **http://localhost:8000**
-
 ### Quick API Test
 ```bash
 curl -X POST http://localhost:8000/predict \
