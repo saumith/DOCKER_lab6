@@ -4,20 +4,21 @@ A production-ready machine learning web application for predicting diabetes risk
 
 ---
 
-## Table of Contents
+## Quick Start
 
-- [Features](#features)
-- [Demo](#demo)
-- [Tech Stack](#tech-stack)
-- [Installation](#installation)
-- [Usage](#usage)
-- [API Documentation](#api-documentation)
-- [Model Details](#model-details)
-- [Project Structure](#project-structure)
-- [Docker Deployment](#docker-deployment)
-- [Testing](#testing)
-- [Contributing](#contributing)
-- [License](#license)
+```bash
+# Clone the repository
+git clone git@github.com:saumith/DOCKER_lab6.git
+cd DOCKER_lab6
+
+# Train the model
+python src/train_model.py
+
+# Run with Docker
+docker-compose up --build
+
+# Access at http://localhost:8000
+```
 
 ---
 
@@ -104,8 +105,8 @@ curl -X POST http://localhost:8000/predict \
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/yourusername/diabetes-prediction.git
-cd diabetes-prediction
+git clone git@github.com:saumith/DOCKER_lab6.git
+cd DOCKER_lab6
 
 # 2. Create virtual environment
 python -m venv .venv
@@ -127,8 +128,8 @@ Visit: **http://localhost:8000**
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/yourusername/diabetes-prediction.git
-cd diabetes-prediction
+git clone git@github.com:saumith/DOCKER_lab6.git
+cd DOCKER_lab6
 
 # 2. Train model (must be done before Docker build)
 pip install pandas numpy scikit-learn joblib
@@ -489,7 +490,7 @@ Contributions are welcome! Please follow these steps:
 
 ```bash
 # Clone your fork
-git clone https://github.com/yourusername/diabetes-prediction.git
+git clone git@github.com:yourusername/DOCKER_lab6.git
 
 # Create branch
 git checkout -b feature/new-feature
@@ -526,7 +527,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Author
 
-**Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
+**Saumith Deversetty**
+- GitHub: [@saumith](https://github.com/saumith)
 - LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)
 - Email: your.email@example.com
